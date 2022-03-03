@@ -80,7 +80,10 @@ count = 0
 ju_list = []
 for i in range(0, len(news2), 1):
     #print(news2[i])
-    if(news2[i]) == '주꾸미':
+    #if(news2[i]) == '주꾸미':
+    #if(news2[i].startswith('주꾸미')):
+    if(news2[i].endswith('주꾸미')):
+
         print("찾음 i=", i)
         ju_list.append(i)
         count += 1 # count = count + 1
