@@ -20,7 +20,6 @@ for x in range(1,10):
     print(x, end='  ')
 for x in range(10,21):
     print(x, end=' ')
-
 print()
 print(bship1)
 print("플레이어 진영")
@@ -74,7 +73,9 @@ print()
 
 ##게임 시작
 print("선공입니다")
+#while문으로 한쪽이 이길때까지 반복
 while True:
+    # 플레이어진영, 쏜자리 그림
     print(' ', end='')
     for x in range(1, 10):
         print(x, end='  ')
@@ -93,12 +94,17 @@ while True:
         print(x, end=' ')
     print()
     print()
+
+    # 플레이어가 이긴 경우
     if hitcount1 == 3:
         print("플레이어 승리!!!!!")
         break
+    # 컴퓨터가 이긴 경우
     elif hitcount2 == 3:
         print("컴퓨터 승리!!!!!!")
         break
+
+    #아직 승부가 나지 않은 경우
     else:
         print("플레이어: %d 컴퓨터: %d" %(hitcount1, hitcount2))
         print("공격 차례")
