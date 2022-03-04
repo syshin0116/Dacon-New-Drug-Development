@@ -1001,5 +1001,42 @@ member = [
 {"id":1000,"first_name":"Rafaela","last_name":"Alderman","email":"raldermanrr@stanford.edu","gender":"Female"}
 ]
 
-print(type(member))
-print(len(member))
+# print(type(member))
+# print(len(member))
+# id가 500번인 사람의 first_name
+# id가 100번인 사람의 email
+# gender의 종류, 개수
+# id가 31~40인 gender 목록
+
+# id가 500번인 사람의 first_name
+# id500 = member[499]
+# print(id500)
+# id500_email = id500['first_name']
+# print(id500_email)
+for keys in member:
+    if keys.get("id")==500:
+        print(keys.get("first_name"))
+for keys in member:
+    if keys.get("id")==100:
+        print(keys.get("email"))
+# gender의 종류, 개수
+# [{'gender':'Female'},{},{}]
+
+gender_set = set()
+for x in member:
+    gender_set.add(x['gender'])
+print(gender_set)
+print(len(gender_set))
+count_bigender = 0
+for x in member:
+    if x['gender'] == 'Bigender':
+        count_bigender += 1
+
+print(count_bigender)
+# id가 31~40인 gender 목록
+member3141 = member[31:41]
+print(member3141)
+gender_list = list()
+for dic in member3141:
+    gender_list.append(dic['gender'])
+print(gender_list)
