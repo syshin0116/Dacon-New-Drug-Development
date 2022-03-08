@@ -9,6 +9,11 @@ sock1 = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 sock2 = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 sock2.bind(('192.168.0.3', 3000))
 print('192.168.0.3, 3000 port node start!')
-
+print('-----------------------------B---------------------------------')
 while True:
-    pass
+    # b가 a에게 받는 부분
+    data, addr = sock2.recvfrom(1024)
+    print("간단 채팅 A:", data.decode('utf-8'))
+
+    data2 = input('간단 채팅 B: ')
+    sock1.sendto(data2.encode('utf-8'), ('192.168.0.3', 4000))
