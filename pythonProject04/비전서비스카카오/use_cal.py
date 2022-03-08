@@ -26,16 +26,16 @@ def getText(op):
     else:
         num = no_entry.get()
         if Calc.ram == '+':
-            cal1.add(num)
+            cal1.add(int(num))
             Calc.ram = op
         if Calc.ram == '-':
-            cal1.subtract(num)
+            cal1.subtract(int(num))
             Calc.ram = op
         if Calc.ram == '*':
-            cal1.multiply(num)
+            cal1.multiply(int(num))
             Calc.ram = op
         if Calc.ram == '/':
-            cal1.divide(num)
+            cal1.divide(int(num))
             Calc.ram = op
     no_entry.delete(0, END)
 

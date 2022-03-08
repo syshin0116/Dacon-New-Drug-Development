@@ -26,6 +26,7 @@ class Calc:
     def calc(self, number):
         print("calc에서 num: ", number)
         print("calc에서 계산전 Calc.number: ", Calc.number)
+        print("ram", Calc.ram)
         if Calc.ram == "+":
             print(type(Calc.number))
             Calc.number += number
