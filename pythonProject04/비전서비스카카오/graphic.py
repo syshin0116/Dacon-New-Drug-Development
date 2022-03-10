@@ -26,7 +26,6 @@ def login():
 
 w = Tk()
 w.geometry("500x250")
-
 id = Label(w, text='ID입력', font=('궁서', 30)) #id글자
 id.pack()
 
