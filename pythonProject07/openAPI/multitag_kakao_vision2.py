@@ -24,14 +24,16 @@ def multi_tag(image_url):
 
 
 if __name__ == '__main__':
-    img_list = ['https://img.imbc.com/template/2021/11/program_ddef4556-bde9-42ee-b5d0-f9700326c252.jpg',
-                'https://img2.sbs.co.kr/img/sbs_cms/WE/2021/07/12/3DL1626054692449.jpg',
-                'https://w.namu.la/s/1c0e615586d75cb6814b6c39e86f19b0e21917c8a3d62af2264667a34aae228cfae185c2365ab46369a4e6c9b0744ccd204da6868e51cd84e9f7176432595ade1484e5464963a16d2a79d8b25622901a',
-                'https://images.chosun.com/resizer/taI1PaMAxWVDBw3j1n0ZUoj0eB8=/616x0/smart/cloudfront-ap-northeast-1.images.arcpublishing.com/chosun/DTPZSPJJJRAWXLDE66PUOIVAF4.jpg',
-                'https://posri.re.kr/images/old_files/board/Iron100-2.jpg',
-                'https://pds.joongang.co.kr/news/component/htmlphoto_mmdata/202110/14/2cff8a58-552f-49c2-b566-5ba73d343c96.jpg',
-                'https://upload.wikimedia.org/wikipedia/commons/4/47/New_york_times_square-terabass.jpg',
-                'https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Causeway_Bay_sit-in.JPG/250px-Causeway_Bay_sit-in.JPG'
+    img_list = ['https://search.pstatic.net/common/?src=https%3A%2F%2Fshopping-phinf.pstatic.net%2Fmain_8344080%2F83440803122.jpg&type=sc960_832',
+                'https://search.pstatic.net/common/?src=http%3A%2F%2Fshop1.phinf.naver.net%2F20220228_225%2F1646013317542CI13R_JPEG%2F47149100723352490_2010556781.jpg&type=sc960_832',
+                'https://search.pstatic.net/common/?src=https%3A%2F%2Fshopping-phinf.pstatic.net%2Fmain_2979480%2F29794808846.1.jpg&type=sc960_832',
+                'https://search.pstatic.net/common/?src=http%3A%2F%2Fshop1.phinf.naver.net%2F20220218_84%2F1645126021422HNy7M_JPEG%2F46261856044409370_1633666740.jpg&type=sc960_832',
+                'https://search.pstatic.net/common/?src=http%3A%2F%2Fshop1.phinf.naver.net%2F20220228_225%2F1646013317542CI13R_JPEG%2F47149100723352490_2010556781.jpg&type=sc960_832',
+                'https://search.pstatic.net/sunny/?src=https%3A%2F%2Fscontent-icn1-1.cdninstagram.com%2Fvp%2F8ef5cd3b518b6234f40193e4649aa59a%2F5D4B2254%2Ft51.2885-15%2Ffr%2Fe15%2Fs1080x1080%2F53267140_125177811879131_3535660168275939536_n.jpg%3F_nc_ht%3Dscontent-icn1-1.cdninstagram.com&type=sc960_832',
+                'https://chic-line.com/web/emoz88/2022/01SP/CLMAO062/00_06.jpg',
+                'https://chic-line.com/web/emoz88/2022/01SP/CLMAO062/CLMAO062_02.jpg',
+                'https://shopping-phinf.pstatic.net/main_3088161/30881617771.20220211012324.jpg?type=f640',
+                'https://shopping-phinf.pstatic.net/main_2948027/29480270215.20211031213251.jpg?type=f640'
                 ]
     result_list = []
     for img in img_list:
