@@ -2,7 +2,6 @@ from django.db import models
 
 # Create your models here.
 
-
 class Bbs(models.Model):
     no = models.IntegerField(100)
     title = models.CharField(max_length=500)

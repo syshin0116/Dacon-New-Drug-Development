@@ -1,50 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a8bab903-6018-44cb-a00c-2a8a0c37d33a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../djangoProject1/.idea/djangoProject1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djangoProject1/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djangoProject1/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djangoProject1/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djangoProject1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djangoProject1/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djangoProject1/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djangoProject1/djangoProject1/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djangoProject1/djangoProject1/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djangoProject1/djangoProject1/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djangoProject1/djangoProject1/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djangoProject1/djangoProject1/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djangoProject1/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djangoProject1/member/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djangoProject1/member/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djangoProject1/member/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djangoProject1/member/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djangoProject1/member/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djangoProject1/member/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djangoProject1/member/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djangoProject1/templates/member/index1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djangoProject1/templates/member/index3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../djangoProject1/templates/member/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../djangoProject1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../djangoProject1/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../djangoProject1/.idea/djangoProject1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../djangoProject1/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../djangoProject1/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../djangoProject1/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../djangoProject1/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../djangoProject1/djangoProject1/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../djangoProject1/djangoProject1/asgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../djangoProject1/djangoProject1/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../djangoProject1/djangoProject1/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../djangoProject1/djangoProject1/wsgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../djangoProject1/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../djangoProject1/member/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../djangoProject1/member/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../djangoProject1/member/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../djangoProject1/member/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../djangoProject1/member/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../djangoProject1/member/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../djangoProject1/member/views.py" beforeDir="false" />
+    <list default="true" id="41e05ecf-a4a3-4267-9540-301294ebdf96" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bbs/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bbs/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bbs/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bbs/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bbs/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bbs/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bbs/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bbs/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/djangoProject2/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/djangoProject2/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/djangoProject2/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/djangoProject2/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/djangoProject2/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bbs/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/member/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/member/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/product/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djangoProject1/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djangoProject1/bbs/migrations/0002_alter_bbs_content_alter_bbs_title_alter_bbs_writer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../djangoProject1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../djangoProject1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../djangoProject1/bbs/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../djangoProject1/bbs/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../djangoProject1/bbs/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../djangoProject1/bbs/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../djangoProject1/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../djangoProject1/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../djangoProject1/member/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../djangoProject1/member/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../djangoProject1/member/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../djangoProject1/member/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,19 +60,22 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="29Y000Y9fvgOgy1vMVAO32gF7ou" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="29YTmyDqSPTGYdS4mximUXFoLUH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/syshin/Desktop/Himedia/HimediaPython/Django/DjangoProject2/templates/member"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -77,6 +83,13 @@
     ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates/member" />
+      <recent name="$PROJECT_DIR$/templates/product" />
+      <recent name="$PROJECT_DIR$/templates/bbs" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="DjangoProject2" type="Python.DjangoServer" factoryName="Django server">
       <module name="DjangoProject2" />
@@ -105,12 +118,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a8bab903-6018-44cb-a00c-2a8a0c37d33a" name="Changes" comment="" />
-      <created>1653274484276</created>
+      <changelist id="41e05ecf-a4a3-4267-9540-301294ebdf96" name="Changes" comment="" />
+      <created>1653289181344</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1653274484276</updated>
-      <workItem from="1653274486402" duration="2382000" />
+      <updated>1653289181344</updated>
+      <workItem from="1653289183561" duration="2715000" />
     </task>
     <servers />
   </component>
@@ -127,5 +140,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

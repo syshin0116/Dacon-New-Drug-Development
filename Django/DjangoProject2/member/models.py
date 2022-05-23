@@ -1,8 +1,6 @@
 from django.db import models
 
 # Create your models here.
-
-
 class Member(models.Model):
 
     #멤버 변수를 생성해주면,
