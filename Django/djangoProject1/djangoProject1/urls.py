@@ -1,3 +1,6 @@
+
+import member
+
 """djangoProject1 URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
@@ -15,7 +18,15 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+import member.views
+import bbs.views
 
 urlpatterns = [
+    path('', member.views.index),
     path('admin/', admin.site.urls),
+    path('member/', member.views.start),
+    path('member/index1', member.views.index1),
+    path('member/index2', member.views.index2),
+    path('member/index3', member.views.index3),
+    path('bbs/', bbs.views.start),
 ]
