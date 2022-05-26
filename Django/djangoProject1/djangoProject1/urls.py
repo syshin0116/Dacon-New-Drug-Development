@@ -29,4 +29,6 @@ urlpatterns = [
     path('member/index2', member.views.index2),
     path('member/index3', member.views.index3),
     path('bbs/', bbs.views.start),
+    path('bbs/update', bbs.views.update),
+    path('bbs/update2', bbs.views.update2),
 ]

@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="41e05ecf-a4a3-4267-9540-301294ebdf96" name="Changes" comment="" />
+    <list default="true" id="41e05ecf-a4a3-4267-9540-301294ebdf96" name="Changes" comment="without amend">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../djangoProject1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../djangoProject1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../djangoProject1/bbs/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../djangoProject1/bbs/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,7 +35,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/syshin/Desktop/Himedia/HimediaPython/Django/DjangoProject2/templates/member",
+    "last_opened_file_path": "/Users/syshin/Desktop/Himedia/HimediaPython/Django/DjangoProject2",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   },
   "keyToStringList": {
@@ -80,8 +84,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1653289181344</updated>
-      <workItem from="1653289183561" duration="4061000" />
+      <workItem from="1653289183561" duration="4698000" />
+      <workItem from="1653353473758" duration="52000" />
     </task>
+    <task id="LOCAL-00001" summary="without amend">
+      <created>1653299828157</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1653299828157</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,5 +113,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="without amend" />
+    <option name="LAST_COMMIT_MESSAGE" value="without amend" />
   </component>
 </project>
