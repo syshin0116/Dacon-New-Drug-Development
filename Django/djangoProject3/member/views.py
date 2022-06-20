@@ -10,7 +10,7 @@ def main(request):
     return render(request, 'main.html')
 
 
-def start(request):
+def index(request):
     return render(request, 'member/index.html')
 
 

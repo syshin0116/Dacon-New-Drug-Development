@@ -24,7 +24,7 @@ import question.views
 urlpatterns = [
     path('', member.views.main),
     path('admin/', admin.site.urls),
-    path('member/', member.views.start),
+    path('member/', member.views.index),
     path('member/update/<id>', member.views.update),
     path('member/update2', member.views.update2),
     path('member/insert', member.views.insert),

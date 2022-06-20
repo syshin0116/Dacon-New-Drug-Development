@@ -110,7 +110,7 @@ def showimg(number):
           font=('comic sans', 10)
           )
     my_img.pack(in_=w.bottom_right, side=TOP)
-    data = "/Users/syshin/Desktop/Himedia/HimediaPython/pythonProject07/openAPI/test" + str(number-1) + ".jpg"
+    data = "C:/Users/hi/Desktop/승엽/HimediaPython/pythonProject07/openAPI/test" + str(number-1) + ".jpg"
     entered_img = Image.open(data)
     result_img = ImageTk.PhotoImage(entered_img)
     img_label = Label(w)
