@@ -14,4 +14,4 @@ class Truck(Car):
     weight = 0 #멤버변수 3개
 
     def move(self): #멤버함수3개
-        print('짐을 싣고 가다.')
+        print('짐을 싣고 가다.') 
