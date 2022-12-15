@@ -1,4 +1,4 @@
-from random import randrange as rand
+from random import randrange as rand, randint
 import pygame, sys
 
 pygame.init()
@@ -11,6 +11,7 @@ cell_size = 18
 cols = 10
 rows = 22
 maxfps = 30
+clock = pygame.time.Clock()
 
 colors = [
     (0, 0, 0),
@@ -48,15 +49,14 @@ tetris_shapes = [
      [7, 7]],
 
     [[6, 6, 6, 6]],
-    #
+
     # [[9, 0, 9],
     #  [9, 9, 9]],
     #
     # [[10, 0, 10],
     #  [10, 10, 10]],
-
-    [[11, 11, 11]],
-[[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+    #
+    # [[11, 11, 11]]
 
 ]
 # block_shape=
@@ -111,6 +111,7 @@ class TetrisApp(object):
         self.rlim = cell_size * cols
         self.bground_grid = [[8 if x % 2 == y % 2 else 0 for x in range(cols)] for y in range(rows)]
 
+
         self.default_font = pygame.font.Font(
             pygame.font.get_default_font(), 12)
 
@@ -123,6 +124,7 @@ class TetrisApp(object):
         self.init_game()
 
     def new_stone(self):
+
         self.stone = self.next_stone[:]
         self.next_stone = tetris_shapes[rand(len(tetris_shapes))]
         self.stone_x = int(cols / 2 - len(self.stone[0]) / 2)
@@ -139,7 +141,6 @@ class TetrisApp(object):
         self.level = 1
         self.score = 0
         self.lines = 0
-        self.comboCount = 0
         pygame.time.set_timer(pygame.USEREVENT + 1, 1000)
 
     def disp_msg(self, msg, topleft):
@@ -187,12 +188,12 @@ class TetrisApp(object):
         linescores = [0, 40, 100, 300, 1200]
         self.lines += n
         self.score += linescores[n] * self.level
-        if self.lines >= self.level * 6:
+        if self.lines >= self.level * 2:
             self.level += 1
             newdelay = 1000 - 50 * (self.level - 1)
             newdelay = 100 if newdelay < 100 else newdelay
             pygame.time.set_timer(pygame.USEREVENT + 1, newdelay)
-            pygame.mixer.music.play()
+            # pygame.mixer.music.play()
 
     def move(self, delta_x):
         if not self.gameover and not self.paused:
@@ -258,6 +259,23 @@ class TetrisApp(object):
             self.init_game()
             self.gameover = False
 
+    def makeOneLine(self):
+        randomIndex = randint(0,9)
+        opacitySet = ['1.0', '0.95', '0.9', '0.85'];
+        tempBoard = []
+        # tempOptions = []
+        for x in range(cols):
+            if x == randomIndex:
+                tempBoard.append(0)
+                # tempOptions.append({opacity: '1.0'})
+            else:
+                tempBoard.append(8)
+                # tempOptions.append({opacity: opacitySet[getRandomIndex(4)]})
+
+        self.board.pop(0);
+        self.board.append(tempBoard);
+
+
     def run(self):
         key_actions = {
             'ESCAPE': self.quit,
@@ -272,9 +290,11 @@ class TetrisApp(object):
 
         self.gameover = False
         self.paused = False
+        time_elapsed_since_last_action = 0
 
         dont_burn_my_cpu = pygame.time.Clock()
         while 1:
+
             self.screen.fill((0, 0, 0))
             if self.gameover:
                 self.center_msg("""Game Over!\nYour score: %d Press space to continue""" % self.score)
@@ -290,7 +310,7 @@ class TetrisApp(object):
                         self.rlim + cell_size,
                         2))
                     self.disp_msg("Score: %d\n\nLevel: %d\
-\nLines: %d" % (self.score, self.level, self.lines),
+                    \nLines: %d" % (self.score, self.level, self.lines),
                                   (self.rlim + cell_size, cell_size * 5))
                     self.draw_matrix(self.bground_grid, (0, 0))
                     self.draw_matrix(self.board, (0, 0))
@@ -298,6 +318,12 @@ class TetrisApp(object):
                                      (self.stone_x, self.stone_y))
                     self.draw_matrix(self.next_stone,
                                      (cols + 1, 2))
+                    if self.level>=5:
+                        dt = clock.tick()
+                        time_elapsed_since_last_action += dt
+                        if time_elapsed_since_last_action > 5000:
+                            self.makeOneLine()  # add a line
+                            time_elapsed_since_last_action = 0  # reset to 0 so you can count again
             pygame.display.update()
 
             for event in pygame.event.get():
