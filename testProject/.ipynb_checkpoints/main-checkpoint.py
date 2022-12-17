@@ -17,7 +17,6 @@ order = []
 
 sum = 0
 
-
 # 고른 메뉴들의 수량과 총 주문금액을 나타내는 함수
 def choice_menu(menu):
     global price, select_menu, sum
