@@ -107,5 +107,3 @@ textarea.pack(padx=10, pady=10)
 
 window.mainloop()
 
-if __name__ == '__main__':
-    print(0)
